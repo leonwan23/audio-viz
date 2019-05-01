@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  .song-title{
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 50px;
+  }
+  
+  .song-title:hover{
+    font-weight: 800;
+  }
+  
+  .toggle-container{
+    display: flex;
+    justify-content: center;
+
+    .toggle-button{
+      color: #fff;
+      border: 0.075em solid #fff;
+      border-radius: 10px;
+      margin: 0 10px;
+      padding: 2px 15px 5px;
+    }
+
+    .toggle-button:hover{
+      cursor: pointer;
+      color: #000;
+      background: #fff;
+    }
+
+    .toggle-active{
+      color: #000;
+      border: 0.075em solid #fff;
+      border-radius: 10px;
+      margin: 0 10px;
+      padding: 2px 15px 5px;
+      background: #fff;
+    }
+
+    .toggle-active{
+      cursor: default;
+    }
+  }
+}
+
+body{
+  background: #000;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.audio-box{
+  margin: 20px 0;
+}
