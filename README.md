@@ -1,4 +1,4 @@
-#A simple audio visualization project using react and d3
+# A simple audio visualization project using react and d3
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
